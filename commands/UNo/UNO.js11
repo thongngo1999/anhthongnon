@@ -1,0 +1,11 @@
+const { DiscordUNO } = require("discord-uno");
+const discordUNO = new DiscordUNO();
+
+module.exports = {
+    name: 'UNO',
+    aliases: ['uno'],
+    run: async( client , message, args ) => {
+        if (message.content.toLowerCase().startsWith())
+        await discordUNO.UNO(message);
+    }
+}
